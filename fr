@@ -1,0 +1,11 @@
+Compute the sum of odd numbers from 1 to n.
+
+ var n;
+ var sum = 0; 
+ var firstNr = 1; 
+ 
+	while(firstNr<n)
+		if (firstNr mod 2 = 0)
+			sum = sum + firstnr; 
+			firstNr = firstnr+2; 
+	return sum;
